@@ -1,0 +1,184 @@
+{
+  "note": "Where my co-authors work, across all my publications.",
+  "home": {
+    "label": "Universitätsinstitut für Medizinische Genetik, Oldenburg",
+    "lat": 53.14,
+    "lon": 8.21
+  },
+  "places": [
+    {
+      "institution": "EMBL-EBI",
+      "city": "Hinxton",
+      "country": "United Kingdom",
+      "lat": 52.08,
+      "lon": 0.19,
+      "people": [
+        "Yasset Perez-Riverol",
+        "Gaurhari Dass"
+      ],
+      "papers": [
+        "10.1021/acs.jproteome.4c01079",
+        "10.1016/j.jprot.2025.105440",
+        "10.1093/nar/gkaa326",
+        "10.1093/nar/gky1106",
+        "10.1371/journal.pone.0189875",
+        "10.1016/j.jprot.2016.08.002",
+        "10.1093/bioinformatics/btv674",
+        "10.2174/1568026613666131204113537",
+        "10.1016/j.jprot.2012.01.029"
+      ]
+    },
+    {
+      "institution": "University of Copenhagen",
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "lat": 55.68,
+      "lon": 12.57,
+      "people": [
+        "Lars Allan Larsen",
+        "Canan Doganli",
+        "Søren Brunak"
+      ],
+      "papers": [
+        "10.1371/journal.pbio.3003902",
+        "10.1186/s13073-020-00772-z"
+      ]
+    },
+    {
+      "institution": "Kiel University / UKSH",
+      "city": "Kiel",
+      "country": "Germany",
+      "lat": 54.32,
+      "lon": 10.12,
+      "people": [
+        "Marc-Phillip Hitz",
+        "Kirstin Hoff"
+      ],
+      "papers": [
+        "10.1371/journal.pgen.1009679",
+        "10.1186/s13148-019-0679-0"
+      ]
+    },
+    {
+      "institution": "University of Lübeck / UKSH",
+      "city": "Lübeck",
+      "country": "Germany",
+      "lat": 53.87,
+      "lon": 10.69,
+      "people": [
+        "Malte Spielmann",
+        "Saranya Balachandran"
+      ],
+      "papers": [
+        "10.1016/j.ajhg.2023.12.011"
+      ]
+    },
+    {
+      "institution": "Helmholtz Munich, German Mouse Clinic",
+      "city": "Munich",
+      "country": "Germany",
+      "lat": 48.22,
+      "lon": 11.59,
+      "people": [
+        "Nadine Spielmann"
+      ],
+      "papers": [
+        "10.1038/s44161-022-00018-8"
+      ]
+    },
+    {
+      "institution": "The Hospital for Sick Children",
+      "city": "Toronto",
+      "country": "Canada",
+      "lat": 43.66,
+      "lon": -79.39,
+      "people": [
+        "Seema Mital",
+        "Robert Lesurf"
+      ],
+      "papers": [
+        "10.1186/s13073-024-01383-8"
+      ]
+    },
+    {
+      "institution": "CHU Sainte-Justine, Université de Montréal",
+      "city": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lon": -73.62,
+      "people": [
+        "Florian Wünnemann"
+      ],
+      "papers": [
+        "10.1038/s41588-019-0536-2"
+      ]
+    },
+    {
+      "institution": "Amsterdam UMC",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "lat": 52.29,
+      "lon": 4.96,
+      "people": [
+        "Doris Škorić-Milosavljević"
+      ],
+      "papers": [
+        "10.1038/s41436-021-01212-y"
+      ]
+    },
+    {
+      "institution": "SciLifeLab, Karolinska Institutet",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "lat": 59.35,
+      "lon": 18.02,
+      "people": [
+        "Husen M. Umer"
+      ],
+      "papers": [
+        "10.1093/bioinformatics/btab838"
+      ]
+    },
+    {
+      "institution": "Chongqing University of Posts and Telecommunications",
+      "city": "Chongqing",
+      "country": "China",
+      "lat": 29.53,
+      "lon": 106.61,
+      "people": [
+        "Chengxin Dai",
+        "Ping Zheng"
+      ],
+      "papers": [
+        "10.1038/s41467-021-26111-3",
+        "10.1016/j.jprot.2025.105440"
+      ]
+    },
+    {
+      "institution": "Talus Bioscience",
+      "city": "Seattle",
+      "country": "United States",
+      "lat": 47.61,
+      "lon": -122.33,
+      "people": [
+        "William E. Fondrie"
+      ],
+      "papers": [
+        "10.1021/acs.jproteome.4c01079"
+      ]
+    },
+    {
+      "institution": "Center for Genetic Engineering and Biotechnology",
+      "city": "Havana",
+      "country": "Cuba",
+      "lat": 23.07,
+      "lon": -82.45,
+      "people": [
+        "Ania Cabrales-Rico"
+      ],
+      "papers": [
+        "10.1016/j.jpba.2014.11.043"
+      ]
+    }
+  ]
+}

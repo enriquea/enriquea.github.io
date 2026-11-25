@@ -1,0 +1,142 @@
+{
+  "name": "Enrique Audain",
+  "author_match": [
+    "Audain E",
+    "Audain, E",
+    "Enrique Audain",
+    "E. Audain",
+    "Audain"
+  ],
+  "position": "Head of Bioinformatics",
+  "affiliation": "Universitätsinstitut für Medizinische Genetik, Klinikum Oldenburg, Germany",
+  "bio": [
+    "I am a biomedical engineer and bioinformatician. I lead bioinformatics at the Institute of Medical Genetics in Oldenburg, where I develop tools and pipelines for analysing next-generation sequencing data, with a focus on the genetics and genomics of congenital heart disease.",
+    "I started out in protein characterization and proteomics, and my main background is in bioinformatics: building software for large-scale biological data. That work now extends to high-throughput genomic technologies."
+  ],
+  "interests": [
+    "Congenital heart disease genetics",
+    "Rare-variant analysis",
+    "Machine learning for genomics",
+    "Computational proteomics",
+    "Open and FAIR research software"
+  ],
+  "photo": "assets/photo.jpg",
+  "orcid": "0000-0002-9201-7840",
+  "links": {
+    "ORCID": "https://orcid.org/0000-0002-9201-7840",
+    "Google Scholar": "https://scholar.google.com/citations?user=GRGPSTgAAAAJ&hl=en",
+    "GitHub": "https://github.com/enriquea",
+    "ResearchGate": "https://www.researchgate.net/profile/Enrique-Audain"
+  },
+  "selected_dois": [
+    "10.1038/s41525-026-00582-z",
+    "10.64898/2026.10.19.760196",
+    "10.1371/journal.pgen.1009679",
+    "10.1038/s44161-022-00018-8",
+    "10.1093/bioinformatics/btv674"
+  ],
+  "exclude_title_patterns": [
+    "^correction",
+    "^publisher correction",
+    "^erratum",
+    "^author correction",
+    "^correction to"
+  ],
+  "draft": false,
+  "published_preprint_dois": [
+    "10.1101/2019.12.11.872424",
+    "10.1101/2024.05.06.592628",
+    "10.1101/2023.12.23.23300495"
+  ],
+  "statement": "Tackling the genetics and genomics of congenital heart disease.",
+  "threads": {
+    "genetics": {
+      "label": "Human genetics and heart disease",
+      "short": "Genetics",
+      "keywords": [
+        "heart",
+        "cardiac",
+        "congenital",
+        "fallot",
+        "valve",
+        "variant",
+        "exome",
+        "genom",
+        "methylation"
+      ]
+    },
+    "proteomics": {
+      "label": "Proteomics and omics software",
+      "short": "Proteomics",
+      "keywords": [
+        "proteom",
+        "peptide",
+        "protein",
+        "isoelectric",
+        "mass spectrom",
+        "pride",
+        "omics",
+        "sdrf"
+      ]
+    }
+  },
+  "career": [
+    {
+      "from": 2011,
+      "to": 2016,
+      "place": "Havana, Cuba",
+      "org": "Center of Molecular Immunology (CIM)",
+      "kind": "position"
+    },
+    {
+      "from": 2014,
+      "to": 2014,
+      "when": "Summer 2014",
+      "place": "Tübingen, Germany",
+      "org": "Research visit",
+      "kind": "visit"
+    },
+    {
+      "from": 2016,
+      "to": 2022,
+      "place": "Kiel, Germany",
+      "org": "University Hospital Schleswig-Holstein (UKSH)",
+      "kind": "position"
+    },
+    {
+      "from": 2018,
+      "to": 2019,
+      "place": "Hinxton, United Kingdom",
+      "org": "Research visit, Sanger Institute and EMBL-EBI (mostly remote)",
+      "kind": "visit"
+    },
+    {
+      "from": 2022,
+      "to": null,
+      "place": "Oldenburg, Germany",
+      "org": "Klinikum Oldenburg and University of Oldenburg",
+      "kind": "position"
+    }
+  ],
+  "education": [
+    {
+      "year": 2011,
+      "degree": "Biomedical Engineering",
+      "place": "Havana, Cuba"
+    },
+    {
+      "year": 2014,
+      "degree": "Master in Biotechnology and Bioinformatics",
+      "place": "Havana, Cuba"
+    },
+    {
+      "year": 2021,
+      "degree": "PhD in Bioinformatics",
+      "place": "Kiel, Germany"
+    }
+  ],
+  "emails": [
+    "enrique.audain@gmail.com",
+    "enrique.audain@uni-oldenburg.de"
+  ]
+}

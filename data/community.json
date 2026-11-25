@@ -1,0 +1,59 @@
+{
+  "intro": "I contribute to open-source software for proteomics and genomics, mainly through the BigBio community.",
+  "projects": [
+    {
+      "name": "bigbio/hvantk",
+      "url": "https://github.com/bigbio/hvantk",
+      "description": "Hail-based toolkit for multi-omics variant annotation and analysis.",
+      "role": "Lead developer",
+      "language": "Python"
+    },
+    {
+      "name": "bigbio/proteomics-sample-metadata",
+      "url": "https://github.com/bigbio/proteomics-sample-metadata",
+      "description": "SDRF-Proteomics: the sample metadata standard for experimental design annotation in proteomics datasets.",
+      "role": "Contributor",
+      "language": "",
+      "stars": 116
+    },
+    {
+      "name": "bigbio/ibaqpy",
+      "url": "https://github.com/bigbio/ibaqpy",
+      "description": "Absolute protein quantification (iBAQ) package built on quantms output.",
+      "role": "Contributor",
+      "language": "Python",
+      "stars": 16
+    },
+    {
+      "name": "bigbio/pIR",
+      "url": "https://github.com/bigbio/pIR",
+      "description": "Estimation of the isoelectric point of peptides and proteins using support vector machines.",
+      "role": "Contributor",
+      "language": "R",
+      "stars": 10
+    },
+    {
+      "name": "bigbio/py-pgatk",
+      "url": "https://github.com/bigbio/py-pgatk",
+      "description": "Python tools for proteogenomics analysis.",
+      "role": "Contributor",
+      "language": "Python"
+    },
+    {
+      "name": "enriquea/feseR",
+      "url": "https://github.com/enriquea/feseR",
+      "description": "Combining feature selection methods for analyzing omics data.",
+      "role": "Author",
+      "language": "R",
+      "stars": 16
+    },
+    {
+      "name": "enriquea/wes_chd_ukbb",
+      "url": "https://github.com/enriquea/wes_chd_ukbb",
+      "description": "Meta-analysis of large-scale whole-exome sequencing datasets using Hail.",
+      "role": "Author",
+      "language": "Python",
+      "stars": 4
+    }
+  ]
+}

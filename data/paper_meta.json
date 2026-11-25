@@ -1,0 +1,88 @@
+{
+ "_help": "Per-paper extras keyed by DOI. thread: genetics | proteomics. role: first | co-first | last. summary: one plain sentence shown on selected-paper cards. image: optional path to a key figure. Survives the ORCID sync.",
+ "papers": {
+  "10.1038/s41525-026-00582-z": {
+   "thread": "genetics",
+   "role": "first",
+   "summary": "A large case-control exome study measuring how much rare variants contribute to congenital heart disease."
+  },
+  "10.64898/2026.10.19.760196": {
+   "thread": "genetics",
+   "role": "first",
+   "summary": "An open toolkit that annotates genetic variants with data from 21 public multi-omics resources."
+  },
+  "10.1186/s13073-025-01587-6": {
+   "thread": "genetics"
+  },
+  "10.1371/journal.pbio.3003902": {
+   "thread": "genetics"
+  },
+  "10.1186/s13073-024-01383-8": {
+   "thread": "genetics"
+  },
+  "10.1016/j.ajhg.2023.12.011": {
+   "thread": "genetics"
+  },
+  "10.1038/s44161-022-00018-8": {
+   "thread": "genetics",
+   "summary": "A large screen identifying genes involved in congenital and structural heart disorders and cardiomyopathy."
+  },
+  "10.1371/journal.pgen.1009679": {
+   "thread": "genetics",
+   "role": "first",
+   "summary": "Combining several kinds of genomic variants to find new candidate genes for congenital heart disease."
+  },
+  "10.1038/s41436-021-01212-y": {
+   "thread": "genetics"
+  },
+  "10.1038/s41588-019-0536-2": {
+   "thread": "genetics"
+  },
+  "10.1186/s13073-020-00772-z": {
+   "thread": "genetics"
+  },
+  "10.1186/s13148-019-0679-0": {
+   "thread": "genetics"
+  },
+  "10.1021/acs.jproteome.4c01079": {
+   "thread": "proteomics"
+  },
+  "10.1016/j.jprot.2025.105440": {
+   "thread": "proteomics"
+  },
+  "10.1093/bioinformatics/btab838": {
+   "thread": "proteomics"
+  },
+  "10.1038/s41467-021-26111-3": {
+   "thread": "proteomics"
+  },
+  "10.1093/nar/gkaa326": {
+   "thread": "proteomics"
+  },
+  "10.1093/nar/gky1106": {
+   "thread": "proteomics"
+  },
+  "10.1371/journal.pone.0189875": {
+   "thread": "proteomics"
+  },
+  "10.1016/j.jprot.2016.08.002": {
+   "thread": "proteomics",
+   "role": "first"
+  },
+  "10.1093/bioinformatics/btv674": {
+   "thread": "proteomics",
+   "role": "first",
+   "summary": "Methods for estimating the isoelectric point of proteins and peptides from their amino acid sequence."
+  },
+  "10.1016/j.jpba.2014.11.043": {
+   "thread": "proteomics"
+  },
+  "10.2174/1568026613666131204113537": {
+   "thread": "proteomics",
+   "role": "first"
+  },
+  "10.1016/j.jprot.2012.01.029": {
+   "thread": "proteomics"
+  }
+ }
+}

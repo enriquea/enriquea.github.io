@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "year": 2024,
+      "month": "September",
+      "type": "poster",
+      "title": "Exploring the contribution of structural variants to exome-negative congenital heart disease cases",
+      "event": "International Cardiovascular Development, Anatomy, and Regeneration Meeting",
+      "location": "",
+      "url": "https://doi.org/10.13140/RG.2.2.34394.66245"
+    },
+    {
+      "year": 2024,
+      "type": "talk",
+      "title": "Exome-based case-control study identifies NOTCH1 variants as the major monogenic cause of CHD",
+      "event": "European Society of Human Genetics Conference · Eur J Hum Genet 32:422",
+      "location": "",
+      "url": ""
+    },
+    {
+      "year": 2024,
+      "type": "poster",
+      "title": "Large-scale data-driven analysis to understand the contribution of rare variants to congenital heart disease",
+      "event": "European Society of Human Genetics Conference · Eur J Hum Genet 32:13",
+      "location": "",
+      "url": ""
+    },
+    {
+      "year": 2018,
+      "month": "June",
+      "type": "poster",
+      "title": "Systematic Integration of Millions of Peptidoforms Evidences into ENSEMBL Genome Browser",
+      "event": "66th ASMS Conference on Mass Spectrometry and Allied Topics",
+      "location": "",
+      "url": "https://doi.org/10.13140/RG.2.2.11560.62726"
+    },
+    {
+      "year": 2015,
+      "month": "November",
+      "type": "talk",
+      "title": "IL-2 mutein: Challenges in its characterization",
+      "event": "Biomanufacturing Challenges of Immunotherapy",
+      "location": "",
+      "url": "https://www.researchgate.net/publication/284179090_IL-2_mutein_Challenges_in_its_characterization"
+    },
+    {
+      "year": 2013,
+      "month": "November",
+      "type": "poster",
+      "title": "Purification Process Development and Physic-Chemical Characterization of IL-2 mutein",
+      "event": "Biomanufacturing Challenges of Immunotherapy",
+      "location": "",
+      "url": "https://www.researchgate.net/publication/259481957_Purification_Process_Development_and_Physic-Chemical_Characterization_of_IL-2_mutein"
+    }
+  ]
+}

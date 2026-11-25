@@ -1,0 +1,1617 @@
+{
+ "source": "OpenAlex, works linked to ORCID 0000-0002-9201-7840",
+ "retrieved": "2026-11-25",
+ "total_works": 32,
+ "note": "Counts are OpenAlex records (32, including 3 correction notices) with at least one co-author from that place. Cities come from the 200 most frequent co-author institutions; funders and multi-site consortia are left out.",
+ "countries": [
+  {
+   "country": "Germany",
+   "works": 26
+  },
+  {
+   "country": "United Kingdom",
+   "works": 23
+  },
+  {
+   "country": "United States",
+   "works": 15
+  },
+  {
+   "country": "Belgium",
+   "works": 11
+  },
+  {
+   "country": "Canada",
+   "works": 10
+  },
+  {
+   "country": "Denmark",
+   "works": 8
+  },
+  {
+   "country": "France",
+   "works": 8
+  },
+  {
+   "country": "Netherlands",
+   "works": 8
+  },
+  {
+   "country": "China",
+   "works": 7
+  },
+  {
+   "country": "Sweden",
+   "works": 6
+  },
+  {
+   "country": "Cuba",
+   "works": 5
+  },
+  {
+   "country": "Switzerland",
+   "works": 3
+  },
+  {
+   "country": "Austria",
+   "works": 2
+  },
+  {
+   "country": "Czechia",
+   "works": 2
+  },
+  {
+   "country": "Spain",
+   "works": 2
+  },
+  {
+   "country": "Italy",
+   "works": 2
+  },
+  {
+   "country": "Japan",
+   "works": 2
+  },
+  {
+   "country": "South Korea",
+   "works": 2
+  },
+  {
+   "country": "Morocco",
+   "works": 2
+  },
+  {
+   "country": "Australia",
+   "works": 1
+  },
+  {
+   "country": "Israel",
+   "works": 1
+  },
+  {
+   "country": "India",
+   "works": 1
+  },
+  {
+   "country": "Norway",
+   "works": 1
+  },
+  {
+   "country": "New Zealand",
+   "works": 1
+  },
+  {
+   "country": "Pakistan",
+   "works": 1
+  },
+  {
+   "country": "Russia",
+   "works": 1
+  },
+  {
+   "country": "Vietnam",
+   "works": 1
+  }
+ ],
+ "cities": [
+  {
+   "city": "Kiel",
+   "country": "Germany",
+   "lat": 54.32,
+   "lon": 10.12,
+   "works": 20,
+   "institutions": [
+    {
+     "name": "University Hospital Schleswig-Holstein",
+     "works": 20
+    },
+    {
+     "name": "Christian-Albrechts-Universität zu Kiel",
+     "works": 6
+    }
+   ]
+  },
+  {
+   "city": "Hinxton",
+   "country": "United Kingdom",
+   "lat": 52.08,
+   "lon": 0.19,
+   "works": 15,
+   "institutions": [
+    {
+     "name": "European Bioinformatics Institute",
+     "works": 15
+    },
+    {
+     "name": "Wellcome Sanger Institute",
+     "works": 11
+    }
+   ]
+  },
+  {
+   "city": "Toronto",
+   "country": "Canada",
+   "lat": 43.66,
+   "lon": -79.39,
+   "works": 10,
+   "institutions": [
+    {
+     "name": "The Hospital for Sick Children",
+     "works": 10
+    },
+    {
+     "name": "University of Toronto",
+     "works": 7
+    },
+    {
+     "name": "University Health Network",
+     "works": 2
+    },
+    {
+     "name": "Lunenfeld-Tanenbaum Research Institute",
+     "works": 2
+    },
+    {
+     "name": "Sinai Health System",
+     "works": 2
+    },
+    {
+     "name": "Toronto Centre for Phenogenomics",
+     "works": 2
+    },
+    {
+     "name": "Centre for Addiction and Mental Health",
+     "works": 1
+    },
+    {
+     "name": "Ted Rogers Centre for Heart Research",
+     "works": 1
+    },
+    {
+     "name": "Toronto General Hospital Research Institute",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Nottingham",
+   "country": "United Kingdom",
+   "lat": 52.94,
+   "lon": -1.19,
+   "works": 8,
+   "institutions": [
+    {
+     "name": "University of Nottingham",
+     "works": 8
+    },
+    {
+     "name": "Queen's Medical Centre",
+     "works": 3
+    }
+   ]
+  },
+  {
+   "city": "Copenhagen",
+   "country": "Denmark",
+   "lat": 55.68,
+   "lon": 12.57,
+   "works": 7,
+   "institutions": [
+    {
+     "name": "University of Copenhagen",
+     "works": 7
+    },
+    {
+     "name": "Novo Nordisk Foundation",
+     "works": 5
+    },
+    {
+     "name": "Copenhagen University Hospital",
+     "works": 1
+    },
+    {
+     "name": "Rigshospitalet",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Kongens Lyngby",
+   "country": "Denmark",
+   "lat": 55.79,
+   "lon": 12.52,
+   "works": 3,
+   "institutions": [
+    {
+     "name": "Technical University of Denmark",
+     "works": 3
+    }
+   ]
+  },
+  {
+   "city": "Berlin",
+   "country": "Germany",
+   "lat": 52.52,
+   "lon": 13.4,
+   "works": 7,
+   "institutions": [
+    {
+     "name": "Deutsches Herzzentrum der Charité",
+     "works": 7
+    },
+    {
+     "name": "Charité – Universitätsmedizin Berlin",
+     "works": 5
+    },
+    {
+     "name": "Freie Universität Berlin",
+     "works": 4
+    },
+    {
+     "name": "Max Delbrück Center",
+     "works": 3
+    },
+    {
+     "name": "Zuse Institute Berlin",
+     "works": 2
+    },
+    {
+     "name": "Humboldt-Universität zu Berlin",
+     "works": 2
+    },
+    {
+     "name": "Institute of Cell Biology and Neurobiology",
+     "works": 2
+    },
+    {
+     "name": "Berlin Institute of Health at Charité",
+     "works": 1
+    },
+    {
+     "name": "Max Planck Institute for Molecular Genetics",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Leuven",
+   "country": "Belgium",
+   "lat": 50.88,
+   "lon": 4.7,
+   "works": 7,
+   "institutions": [
+    {
+     "name": "KU Leuven",
+     "works": 7
+    },
+    {
+     "name": "Universitair Ziekenhuis Leuven",
+     "works": 4
+    },
+    {
+     "name": "Centre for Human Genetics",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Freiburg",
+   "country": "Germany",
+   "lat": 47.99,
+   "lon": 7.85,
+   "works": 6,
+   "institutions": [
+    {
+     "name": "University of Freiburg",
+     "works": 6
+    },
+    {
+     "name": "Universitäts-Herzzentrum Freiburg-Bad Krozingen",
+     "works": 5
+    },
+    {
+     "name": "University Medical Center Freiburg",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Erlangen",
+   "country": "Germany",
+   "lat": 49.6,
+   "lon": 11.0,
+   "works": 6,
+   "institutions": [
+    {
+     "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+     "works": 6
+    },
+    {
+     "name": "Universitätsklinikum Erlangen",
+     "works": 4
+    }
+   ]
+  },
+  {
+   "city": "Homburg",
+   "country": "Germany",
+   "lat": 49.32,
+   "lon": 7.34,
+   "works": 6,
+   "institutions": [
+    {
+     "name": "Universitätsklinikum des Saarlandes",
+     "works": 6
+    }
+   ]
+  },
+  {
+   "city": "Amsterdam",
+   "country": "Netherlands",
+   "lat": 52.37,
+   "lon": 4.9,
+   "works": 6,
+   "institutions": [
+    {
+     "name": "Amsterdam UMC",
+     "works": 6
+    },
+    {
+     "name": "University of Amsterdam",
+     "works": 4
+    },
+    {
+     "name": "Emma Kinderziekenhuis",
+     "works": 1
+    },
+    {
+     "name": "Amsterdam Neuroscience",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Tübingen",
+   "country": "Germany",
+   "lat": 48.52,
+   "lon": 9.06,
+   "works": 6,
+   "institutions": [
+    {
+     "name": "University of Tübingen",
+     "works": 6
+    },
+    {
+     "name": "Universitätsklinikum Tübingen",
+     "works": 1
+    },
+    {
+     "name": "Max Planck Institute for Developmental Biology",
+     "works": 1
+    },
+    {
+     "name": "Quantitative Biology Center",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Leicester",
+   "country": "United Kingdom",
+   "lat": 52.63,
+   "lon": -1.13,
+   "works": 4,
+   "institutions": [
+    {
+     "name": "Glenfield Hospital",
+     "works": 4
+    },
+    {
+     "name": "University of Leicester",
+     "works": 3
+    }
+   ]
+  },
+  {
+   "city": "Havana",
+   "country": "Cuba",
+   "lat": 23.11,
+   "lon": -82.37,
+   "works": 4,
+   "institutions": [
+    {
+     "name": "Centro de Ingeniería Genética y Biotecnología",
+     "works": 4
+    },
+    {
+     "name": "Center of Molecular Immunology",
+     "works": 3
+    }
+   ]
+  },
+  {
+   "city": "Beijing",
+   "country": "China",
+   "lat": 39.9,
+   "lon": 116.4,
+   "works": 4,
+   "institutions": [
+    {
+     "name": "Beijing Proteome Research Center",
+     "works": 4
+    },
+    {
+     "name": "State Key Laboratory of Proteomics",
+     "works": 4
+    }
+   ]
+  },
+  {
+   "city": "Bochum",
+   "country": "Germany",
+   "lat": 51.44,
+   "lon": 7.26,
+   "works": 4,
+   "institutions": [
+    {
+     "name": "Ruhr University Bochum",
+     "works": 4
+    }
+   ]
+  },
+  {
+   "city": "Leipzig",
+   "country": "Germany",
+   "lat": 51.34,
+   "lon": 12.37,
+   "works": 4,
+   "institutions": [
+    {
+     "name": "Leipzig University",
+     "works": 4
+    }
+   ]
+  },
+  {
+   "city": "Chicago",
+   "country": "United States",
+   "lat": 41.88,
+   "lon": -87.63,
+   "works": 3,
+   "institutions": [
+    {
+     "name": "Northwestern University",
+     "works": 3
+    },
+    {
+     "name": "Lurie Children's Hospital",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Houston",
+   "country": "United States",
+   "lat": 29.71,
+   "lon": -95.4,
+   "works": 3,
+   "institutions": [
+    {
+     "name": "Baylor College of Medicine",
+     "works": 3
+    },
+    {
+     "name": "The University of Texas Health Science Center at Houston",
+     "works": 2
+    },
+    {
+     "name": "Children's Nutrition Research Center",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Seattle",
+   "country": "United States",
+   "lat": 47.61,
+   "lon": -122.33,
+   "works": 3,
+   "institutions": [
+    {
+     "name": "University of Washington",
+     "works": 3
+    },
+    {
+     "name": "Institute for Systems Biology",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Bar Harbor",
+   "country": "United States",
+   "lat": 44.39,
+   "lon": -68.2,
+   "works": 3,
+   "institutions": [
+    {
+     "name": "Jackson Laboratory",
+     "works": 3
+    }
+   ]
+  },
+  {
+   "city": "London (Ontario)",
+   "country": "Canada",
+   "lat": 42.98,
+   "lon": -81.25,
+   "works": 3,
+   "institutions": [
+    {
+     "name": "London Health Sciences Centre",
+     "works": 3
+    },
+    {
+     "name": "Western University",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Manchester",
+   "country": "United Kingdom",
+   "lat": 53.48,
+   "lon": -2.24,
+   "works": 3,
+   "institutions": [
+    {
+     "name": "University of Manchester",
+     "works": 3
+    },
+    {
+     "name": "Manchester Academic Health Science Centre",
+     "works": 2
+    },
+    {
+     "name": "Manchester University NHS Foundation Trust",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Munich",
+   "country": "Germany",
+   "lat": 48.14,
+   "lon": 11.58,
+   "works": 3,
+   "institutions": [
+    {
+     "name": "Technical University of Munich",
+     "works": 3
+    },
+    {
+     "name": "TUM Klinikum Rechts der Isar",
+     "works": 2
+    },
+    {
+     "name": "Helmholtz Munich",
+     "works": 2
+    },
+    {
+     "name": "Ludwig-Maximilians-Universität München",
+     "works": 2
+    },
+    {
+     "name": "Munich Cluster for Systems Neurology",
+     "works": 2
+    },
+    {
+     "name": "Deutsches Herzzentrum München",
+     "works": 2
+    },
+    {
+     "name": "Max Planck Institute of Biochemistry",
+     "works": 2
+    },
+    {
+     "name": "German Center for Diabetes Research",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Chongqing",
+   "country": "China",
+   "lat": 29.56,
+   "lon": 106.55,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Chongqing University of Posts and Telecommunications",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Rabat",
+   "country": "Morocco",
+   "lat": 34.02,
+   "lon": -6.83,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Mohammed V University",
+     "works": 2
+    },
+    {
+     "name": "Institut National d'Hygiène du Maroc",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Fez",
+   "country": "Morocco",
+   "lat": 34.03,
+   "lon": -5.0,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Centre Hospitalier Universitaire Hassan II",
+     "works": 2
+    },
+    {
+     "name": "Sidi Mohamed Ben Abdellah University",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Boston",
+   "country": "United States",
+   "lat": 42.36,
+   "lon": -71.06,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Boston Children's Hospital",
+     "works": 2
+    },
+    {
+     "name": "Harvard University",
+     "works": 2
+    },
+    {
+     "name": "Boston University",
+     "works": 1
+    },
+    {
+     "name": "Northeastern University",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Bethesda",
+   "country": "United States",
+   "lat": 39.0,
+   "lon": -77.1,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "National Institutes of Health",
+     "works": 2
+    },
+    {
+     "name": "National Human Genome Research Institute",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Kansas City",
+   "country": "United States",
+   "lat": 39.1,
+   "lon": -94.58,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Children's Mercy Hospital",
+     "works": 2
+    },
+    {
+     "name": "University of Missouri–Kansas City",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Philadelphia",
+   "country": "United States",
+   "lat": 39.95,
+   "lon": -75.17,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Children's Hospital of Philadelphia",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Seoul",
+   "country": "South Korea",
+   "lat": 37.57,
+   "lon": 126.98,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Seoul National University",
+     "works": 2
+    },
+    {
+     "name": "Research Institute for Veterinary Science",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Antwerp",
+   "country": "Belgium",
+   "lat": 51.22,
+   "lon": 4.4,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "University of Antwerp",
+     "works": 2
+    },
+    {
+     "name": "Antwerp University Hospital",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "London",
+   "country": "United Kingdom",
+   "lat": 51.51,
+   "lon": -0.13,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Queen Mary University of London",
+     "works": 2
+    },
+    {
+     "name": "William Harvey Research Institute",
+     "works": 2
+    },
+    {
+     "name": "Genomics England",
+     "works": 2
+    },
+    {
+     "name": "Royal Brompton Hospital",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Calgary",
+   "country": "Canada",
+   "lat": 51.05,
+   "lon": -114.07,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "University of Calgary",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Albuquerque",
+   "country": "United States",
+   "lat": 35.08,
+   "lon": -106.65,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "University of New Mexico",
+     "works": 2
+    },
+    {
+     "name": "UNM Comprehensive Cancer Center",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Barcelona",
+   "country": "Spain",
+   "lat": 41.39,
+   "lon": 2.17,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Universitat Pompeu Fabra",
+     "works": 2
+    },
+    {
+     "name": "Barcelona Biomedical Research Park",
+     "works": 1
+    },
+    {
+     "name": "ZeClinics",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Prague",
+   "country": "Czechia",
+   "lat": 50.08,
+   "lon": 14.44,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Czech Academy of Sciences, Institute of Molecular Genetics",
+     "works": 2
+    },
+    {
+     "name": "Czech Centre for Phenogenomics",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Zurich",
+   "country": "Switzerland",
+   "lat": 47.38,
+   "lon": 8.54,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "University of Zurich",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Milwaukee",
+   "country": "United States",
+   "lat": 43.04,
+   "lon": -87.91,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Medical College of Wisconsin",
+     "works": 2
+    },
+    {
+     "name": "Children's Hospital of Wisconsin",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Marseille",
+   "country": "France",
+   "lat": 43.3,
+   "lon": 5.37,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Aix-Marseille Université",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Heidelberg",
+   "country": "Germany",
+   "lat": 49.4,
+   "lon": 8.67,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Heidelberg University",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Leiden",
+   "country": "Netherlands",
+   "lat": 52.16,
+   "lon": 4.49,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Leiden University Medical Center",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Stockholm",
+   "country": "Sweden",
+   "lat": 59.33,
+   "lon": 18.07,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Science for Life Laboratory",
+     "works": 2
+    },
+    {
+     "name": "Karolinska Institutet",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Bad Oeynhausen",
+   "country": "Germany",
+   "lat": 52.21,
+   "lon": 8.8,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Heart and Diabetes Center North Rhine-Westphalia",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Montreal",
+   "country": "Canada",
+   "lat": 45.5,
+   "lon": -73.57,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Centre Hospitalier Universitaire Sainte-Justine",
+     "works": 2
+    },
+    {
+     "name": "Université de Montréal",
+     "works": 2
+    },
+    {
+     "name": "Montreal Heart Institute",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Ghent",
+   "country": "Belgium",
+   "lat": 51.05,
+   "lon": 3.72,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Ghent University",
+     "works": 2
+    },
+    {
+     "name": "VIB-UGent Center for Medical Biotechnology",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Suzhou",
+   "country": "China",
+   "lat": 31.3,
+   "lon": 120.59,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Soochow University",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Paris",
+   "country": "France",
+   "lat": 48.86,
+   "lon": 2.35,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Sorbonne Université",
+     "works": 2
+    },
+    {
+     "name": "Pitié-Salpêtrière Hospital",
+     "works": 2
+    },
+    {
+     "name": "Hôpital Necker-Enfants Malades",
+     "works": 1
+    },
+    {
+     "name": "Université Paris Cité",
+     "works": 1
+    },
+    {
+     "name": "Institut des Maladies Génétiques Imagine",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Oxford",
+   "country": "United Kingdom",
+   "lat": 51.75,
+   "lon": -1.26,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "University of Oxford",
+     "works": 2
+    },
+    {
+     "name": "Oxford Centre for Diabetes, Endocrinology and Metabolism",
+     "works": 2
+    },
+    {
+     "name": "Mary Lyon Centre at MRC Harwell",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Strasbourg",
+   "country": "France",
+   "lat": 48.58,
+   "lon": 7.75,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Institut de génétique et de biologie moléculaire et cellulaire",
+     "works": 2
+    },
+    {
+     "name": "Université de Strasbourg",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Tsukuba",
+   "country": "Japan",
+   "lat": 36.08,
+   "lon": 140.11,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "RIKEN BioResource Research Center",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Nanjing",
+   "country": "China",
+   "lat": 32.06,
+   "lon": 118.8,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Nanjing University",
+     "works": 2
+    },
+    {
+     "name": "Model Animal Research Center",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Ulm",
+   "country": "Germany",
+   "lat": 48.4,
+   "lon": 9.99,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "University Hospital Ulm",
+     "works": 2
+    },
+    {
+     "name": "Universität Ulm",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Vienna",
+   "country": "Austria",
+   "lat": 48.21,
+   "lon": 16.37,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "Medical University of Vienna",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Davis",
+   "country": "United States",
+   "lat": 38.54,
+   "lon": -121.74,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "University of California, Davis",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Gothenburg",
+   "country": "Sweden",
+   "lat": 57.71,
+   "lon": 11.97,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "University of Gothenburg",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Columbus",
+   "country": "United States",
+   "lat": 39.96,
+   "lon": -83.0,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "The Ohio State University",
+     "works": 2
+    },
+    {
+     "name": "Nationwide Children's Hospital",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Lübeck",
+   "country": "Germany",
+   "lat": 53.87,
+   "lon": 10.69,
+   "works": 2,
+   "institutions": [
+    {
+     "name": "University of Lübeck",
+     "works": 2
+    }
+   ]
+  },
+  {
+   "city": "Lausanne",
+   "country": "Switzerland",
+   "lat": 46.52,
+   "lon": 6.63,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "SIB Swiss Institute of Bioinformatics",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Cincinnati",
+   "country": "United States",
+   "lat": 39.1,
+   "lon": -84.51,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Cincinnati Children's Hospital Medical Center",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Sydney",
+   "country": "Australia",
+   "lat": -33.87,
+   "lon": 151.21,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "The University of Sydney",
+     "works": 1
+    },
+    {
+     "name": "Children's Hospital at Westmead",
+     "works": 1
+    },
+    {
+     "name": "Westmead Hospital",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Moscow",
+   "country": "Russia",
+   "lat": 55.76,
+   "lon": 37.62,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Moscow Institute of Physics and Technology",
+     "works": 1
+    },
+    {
+     "name": "Semenov Institute of Chemical Physics",
+     "works": 1
+    },
+    {
+     "name": "Institute of Energy Problems of Chemical Physics",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Toulouse",
+   "country": "France",
+   "lat": 43.6,
+   "lon": 1.44,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Université Toulouse III - Paul Sabatier",
+     "works": 1
+    },
+    {
+     "name": "Institut de Pharmacologie et de Biologie Structurale",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Madison",
+   "country": "United States",
+   "lat": 43.07,
+   "lon": -89.4,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "University of Wisconsin–Madison",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Richland",
+   "country": "United States",
+   "lat": 46.29,
+   "lon": -119.28,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Pacific Northwest National Laboratory",
+     "works": 1
+    },
+    {
+     "name": "Environmental Molecular Sciences Laboratory",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Quetta",
+   "country": "Pakistan",
+   "lat": 30.18,
+   "lon": 66.98,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Balochistan University of Information Technology, Engineering and Management Sciences",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Baltimore",
+   "country": "United States",
+   "lat": 39.29,
+   "lon": -76.61,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Johns Hopkins University",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Urbana",
+   "country": "United States",
+   "lat": 40.11,
+   "lon": -88.21,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "University of Illinois Urbana-Champaign",
+     "works": 1
+    },
+    {
+     "name": "National Center for Supercomputing Applications",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Guangzhou",
+   "country": "China",
+   "lat": 23.13,
+   "lon": 113.26,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Sun Yat-sen University",
+     "works": 1
+    },
+    {
+     "name": "Sun Yat-sen Memorial Hospital",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Birmingham",
+   "country": "United Kingdom",
+   "lat": 52.49,
+   "lon": -1.89,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Aston University",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Odense",
+   "country": "Denmark",
+   "lat": 55.4,
+   "lon": 10.39,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "University of Southern Denmark",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "South San Francisco",
+   "country": "United States",
+   "lat": 37.65,
+   "lon": -122.41,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Genentech",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Lund",
+   "country": "Sweden",
+   "lat": 55.7,
+   "lon": 13.19,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Lund University",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Jerusalem",
+   "country": "Israel",
+   "lat": 31.77,
+   "lon": 35.21,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Hebrew University of Jerusalem",
+     "works": 1
+    },
+    {
+     "name": "Hadassah Medical Center",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Nashville",
+   "country": "United States",
+   "lat": 36.16,
+   "lon": -86.78,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Vanderbilt University",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Münster",
+   "country": "Germany",
+   "lat": 51.96,
+   "lon": 7.63,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "University of Münster",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Ottawa",
+   "country": "Canada",
+   "lat": 45.42,
+   "lon": -75.7,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Children's Hospital of Eastern Ontario",
+     "works": 1
+    },
+    {
+     "name": "Ottawa Heart Institute",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Kingston",
+   "country": "Canada",
+   "lat": 44.23,
+   "lon": -76.49,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Kingston General Hospital",
+     "works": 1
+    },
+    {
+     "name": "Kingston Health Sciences Centre",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Hamilton",
+   "country": "Canada",
+   "lat": 43.26,
+   "lon": -79.87,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "McMaster Children's Hospital",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Nijmegen",
+   "country": "Netherlands",
+   "lat": 51.84,
+   "lon": 5.87,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Radboud University Medical Center",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "San Diego",
+   "country": "United States",
+   "lat": 32.88,
+   "lon": -117.23,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "University of California San Diego",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Hamburg",
+   "country": "Germany",
+   "lat": 53.55,
+   "lon": 9.99,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "University Medical Center Hamburg-Eppendorf",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Hanoi",
+   "country": "Vietnam",
+   "lat": 21.03,
+   "lon": 105.85,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "VinUniversity",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Bengaluru",
+   "country": "India",
+   "lat": 12.97,
+   "lon": 77.59,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "Nference",
+     "works": 1
+    }
+   ]
+  },
+  {
+   "city": "Dresden",
+   "country": "Germany",
+   "lat": 51.05,
+   "lon": 13.74,
+   "works": 1,
+   "institutions": [
+    {
+     "name": "University Hospital Carl Gustav Carus",
+     "works": 1
+    }
+   ]
+  }
+ ]
+}
