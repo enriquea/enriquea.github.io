@@ -339,6 +339,15 @@ def build():
         "CONFERENCES": conf_rows,
         "COMMUNITY": community_html(comm),
         "COMMUNITY_INTRO": esc(comm.get("intro", "")),
+        "SITE_URL": esc(cfg.get("site_url", "")),
+        "JSONLD": json.dumps({
+            "@context": "https://schema.org", "@type": "Person", "name": cfg["name"],
+            "jobTitle": cfg["position"], "url": cfg.get("site_url", ""),
+            "affiliation": {"@type": "Organization", "name": cfg["affiliation"]},
+            "identifier": "https://orcid.org/" + cfg["orcid"],
+            "sameAs": list(cfg["links"].values()),
+            "knowsAbout": cfg.get("interests", []),
+        }, ensure_ascii=False).replace("</", "<\\/"),
         "FOOTER": f'© {esc(cfg["name"])} · Publications sync from <a href="{esc(cfg["links"]["ORCID"])}">ORCID</a> · Last updated {esc(data.get("updated"))}',
     }
     page = (ROOT / "templates" / "index.html").read_text(encoding="utf-8")
@@ -355,6 +364,12 @@ def build():
     if (ROOT / "assets").exists():
         shutil.copytree(ROOT / "assets", OUT / "assets")
     (OUT / ".nojekyll").write_text("")
+    site = cfg.get("site_url", "").rstrip("/")
+    if site:  # help search engines find and understand the page
+        (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {site}/sitemap.xml\n")
+        (OUT / "sitemap.xml").write_text(
+            '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            f'  <url><loc>{site}/</loc><lastmod>{esc(data.get("updated"))}</lastmod></url>\n</urlset>\n')
     print(f"Built {OUT / 'index.html'} with {len(works)} publications")
 
 
