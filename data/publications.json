@@ -1,294 +1,464 @@
 {
-  "source": "PubMed author search (preview seed). Replaced by ORCID sync on first deploy.",
+  "source": "ORCID 0000-0002-9201-7840",
   "updated": "2026-11-25",
   "works": [
     {
       "title": "hvantk: an agentic multi-omics framework for variant annotation and analysis",
       "authors": [
-        "Audain E",
-        "Perez-Riverol Y",
-        "Hitz M-P"
+        "Enrique Audain",
+        "Yasset Perez-Riverol",
+        "Marc-Phillip Hitz"
       ],
-      "journal": "bioRxiv",
+      "journal": "",
       "year": 2026,
       "doi": "10.64898/2026.10.19.760196",
       "pmid": null,
+      "url": "https://doi.org/10.64898/2026.10.19.760196",
       "type": "preprint"
-    },
-    {
-      "title": "Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study",
-      "authors": [
-        "Audain E",
-        "et al."
-      ],
-      "journal": "npj Genomic Medicine",
-      "year": 2026,
-      "doi": "10.1038/s41525-026-00582-z",
-      "pmid": "42230622",
-      "type": "journal-article"
     },
     {
       "title": "DNA methylation analysis of NOTCH1 variants reveals the first episignature for non-syndromic congenital heart defects",
       "authors": [
-        "Dombrowsky G",
-        "et al."
+        "Gregor Dombrowsky",
+        "Liselot van der Laan",
+        "Ananília Silva",
+        "Jeroen Breckpot",
+        "Enrique Audain",
+        "Anna Wilsdon",
+        "Michael A. Levy",
+        "Niels Vos",
+        "Marcel Mannens",
+        "Jiao Wang",
+        "Anjali Jain",
+        "Robert Lesurf",
+        "David Winlaw",
+        "Connie R. Bezzina",
+        "Mary Ann Thomas",
+        "Almuth Caliebe",
+        "Sabine Klaassen",
+        "Felix Berger",
+        "Sven Dittrich",
+        "Brigitte Stiller",
+        "Hashim Abdul-Khaliq",
+        "Ingo Dähnert",
+        "Frances Bu’Lock",
+        "Siobhan Loughna",
+        "J. David Brook",
+        "Seema Mital",
+        "Robert B. Russell",
+        "Thomas Pickardt",
+        "Ulrike Bauer",
+        "Hans-Heiner Kramer",
+        "Anselm Uebing",
+        "Peter Henneman",
+        "Bekim Sadikovic",
+        "Alex Postma",
+        "Marc-Phillip Hitz"
       ],
       "journal": "Genome Medicine",
       "year": 2026,
       "doi": "10.1186/s13073-025-01587-6",
-      "pmid": "41501857",
+      "pmid": null,
+      "url": "https://doi.org/10.1186/s13073-025-01587-6",
       "type": "journal-article"
     },
     {
-      "title": "TAK1 operates at the primary cilium in non-canonical TGFB/BMP signaling to control heart development",
+      "title": "Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study",
       "authors": [
-        "Doganli C",
-        "et al."
+        "Enrique Audain",
+        "Anna Wilsdon",
+        "Gregor Dombrowsky",
+        "Alejandro Sifrim",
+        "Jeroen Breckpot",
+        "Yasset Perez-Riverol",
+        "Siobhan Loughna",
+        "Allan Daly",
+        "Pavlos Antoniou",
+        "Philipp Hofmann",
+        "Amilcar Perez-Riverol",
+        "Anne-Karin Kahlert",
+        "Ulrike Bauer",
+        "Thomas Pickardt",
+        "Sabine Klaassen",
+        "Felix Berger",
+        "Ingo Daehnert",
+        "Sven Dittrich",
+        "Brigitte Stiller",
+        "Hashim Abdul-Khaliq",
+        "Frances Bu’lock",
+        "Anselm Uebing",
+        "Hans-Heiner Kramer",
+        "Vivek Iyer",
+        "Lars Allan Larsen",
+        "J. David Brook",
+        "Marc-Phillip Hitz"
       ],
-      "journal": "PLoS Biology",
+      "journal": "npj Genomic Medicine",
       "year": 2026,
-      "doi": "10.1371/journal.pbio.3003902",
-      "pmid": "42550797",
+      "doi": "10.1038/s41525-026-00582-z",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1038/s41525-026-00582-z",
       "type": "journal-article"
     },
     {
-      "title": "Open-Source and FAIR Research Software for Proteomics",
+      "title": "ibaqpy: A scalable Python package for baseline quantification in proteomics leveraging SDRF metadata",
       "authors": [
-        "Perez-Riverol Y",
-        "et al."
+        "Ping Zheng",
+        "Enrique Audain",
+        "Henry Webel",
+        "Chengxin Dai",
+        "Joshua Klein",
+        "Marc-Phillip Hitz",
+        "Timo Sachsenberg",
+        "Mingze Bai",
+        "Yasset Perez-Riverol"
       ],
-      "journal": "Journal of Proteome Research",
+      "journal": "",
       "year": 2025,
-      "doi": "10.1021/acs.jproteome.4c01079",
-      "pmid": "40267229",
-      "type": "review"
-    },
-    {
-      "title": "Ibaqpy: A scalable Python package for baseline quantification in proteomics leveraging SDRF metadata",
-      "authors": [
-        "Zheng P",
-        "et al."
-      ],
-      "journal": "Journal of Proteomics",
-      "year": 2025,
-      "doi": "10.1016/j.jprot.2025.105440",
-      "pmid": "40268243",
-      "type": "journal-article"
-    },
-    {
-      "title": "A validated heart-specific model for splice-disrupting variants in childhood heart disease",
-      "authors": [
-        "Lesurf R",
-        "et al."
-      ],
-      "journal": "Genome Medicine",
-      "year": 2024,
-      "doi": "10.1186/s13073-024-01383-8",
-      "pmid": "39402625",
-      "type": "journal-article"
+      "doi": "10.1101/2025.02.08.637208",
+      "pmid": null,
+      "url": "https://doi.org/10.1101/2025.02.08.637208",
+      "type": "preprint"
     },
     {
       "title": "STIGMA: Single-cell tissue-specific gene prioritization using machine learning",
       "authors": [
-        "Balachandran S",
-        "et al."
+        "Saranya Balachandran",
+        "Cesar A. Prada-Medina",
+        "Martin A. Mensah",
+        "Naseebullah Kakar",
+        "Inga Nagel",
+        "Jelena Pozojevic",
+        "Enrique Audain",
+        "Marc-Phillip Hitz",
+        "Martin Kircher",
+        "Varun K.A. Sreenivasan",
+        "Malte Spielmann"
       ],
-      "journal": "American Journal of Human Genetics",
+      "journal": "The American Journal of Human Genetics",
       "year": 2024,
       "doi": "10.1016/j.ajhg.2023.12.011",
-      "pmid": "38228144",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1016/j.ajhg.2023.12.011",
       "type": "journal-article"
+    },
+    {
+      "title": "Open-source and FAIR Research Software for Proteomics",
+      "authors": [
+        "Yasset Perez-Riverol",
+        "Wout Bittremieux",
+        "William S. Noble",
+        "Lennart Martens",
+        "Aivett Bilbao",
+        "Michael R. Lazear",
+        "Bjorn Grüning",
+        "Daniel S. Katz",
+        "Michael J. MacCoss",
+        "Chengxin Dai",
+        "Jimmy K. Eng",
+        "Robbin Bouwmeester",
+        "Michael Robert Shortreed",
+        "Enrique Audain",
+        "Timo Sachsenberg",
+        "Jeroen Van Goey",
+        "Georg Wallmann",
+        "Bo Wen",
+        "Lukas Käll",
+        "William E. Fondrie"
+      ],
+      "journal": "ChemRxiv",
+      "year": 2024,
+      "doi": "10.26434/chemrxiv-2024-wf6dw",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.26434/chemrxiv-2024-wf6dw",
+      "type": "preprint"
+    },
+    {
+      "title": "A validated heart-specific model for splice-disrupting variants in childhood heart disease",
+      "authors": [
+        "Robert Lesurf",
+        "Jeroen Breckpot",
+        "Jade Bouwmeester",
+        "Nour Hanafi",
+        "Anjali Jain",
+        "Yijing Liang",
+        "Tanya Papaz",
+        "Jane Lougheed",
+        "Tapas Mondal",
+        "Mahmoud Alsalehi",
+        "Luis Altamirano-Diaz",
+        "Erwin Oechslin",
+        "Enrique Audain",
+        "Gregor Dombrowsky",
+        "Alex V. Postma",
+        "Odilia I. Woudstra",
+        "Berto J. Bouma",
+        "Marc-Phillip Hitz",
+        "Connie R. Bezzina",
+        "Gillian M. Blue",
+        "David S. Winlaw",
+        "Seema Mital"
+      ],
+      "journal": "Genome Medicine",
+      "year": 2024,
+      "doi": "10.1186/s13073-024-01383-8",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1186/s13073-024-01383-8",
+      "type": "journal-article"
+    },
+    {
+      "title": "Genetics of Congenitally Corrected Transposition of the Great Arteries: next generation sequencing shows a mutation load effect for 156 genes involved in cardiac patterning",
+      "authors": [
+        "Yasmine Benadjaoud",
+        "Sabina Benko",
+        "Fabienne Jabot Hanin",
+        "Enrique Audain",
+        "Jean François Deleuze",
+        "Anne Boland",
+        "Christine Bole",
+        "Marc Bras",
+        "Fanny Bajolle",
+        "Morgan Derouk",
+        "Christopher T. Gordon",
+        "Marc Phillip Hitz",
+        "Damien Bonnet",
+        "Stanislas Lyonnet"
+      ],
+      "journal": "",
+      "year": 2023,
+      "doi": "10.1101/2023.09.11.23293772",
+      "pmid": null,
+      "url": "https://doi.org/10.1101/2023.09.11.23293772",
+      "type": "preprint"
     },
     {
       "title": "Extensive identification of genes involved in congenital and structural heart disorders and cardiomyopathy",
-      "authors": [
-        "Spielmann N",
-        "et al."
-      ],
+      "authors": [],
       "journal": "Nature Cardiovascular Research",
       "year": 2022,
       "doi": "10.1038/s44161-022-00018-8",
-      "pmid": "39195995",
-      "type": "journal-article"
-    },
-    {
-      "title": "Generation of ENSEMBL-based proteogenomics databases boosts the identification of non-canonical peptides",
-      "authors": [
-        "Umer HM",
-        "et al."
-      ],
-      "journal": "Bioinformatics",
-      "year": 2022,
-      "doi": "10.1093/bioinformatics/btab838",
-      "pmid": "34904638",
-      "type": "journal-article"
-    },
-    {
-      "title": "Integrative analysis of genomic variants reveals new associations of candidate haploinsufficient genes with congenital heart disease",
-      "authors": [
-        "Audain E",
-        "et al."
-      ],
-      "journal": "PLoS Genetics",
-      "year": 2021,
-      "doi": "10.1371/journal.pgen.1009679",
-      "pmid": "34324492",
-      "type": "journal-article"
-    },
-    {
-      "title": "A proteomics sample metadata representation for multiomics integration and big data analysis",
-      "authors": [
-        "Dai C",
-        "et al."
-      ],
-      "journal": "Nature Communications",
-      "year": 2021,
-      "doi": "10.1038/s41467-021-26111-3",
-      "pmid": "34615866",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1038/s44161-022-00018-8",
       "type": "journal-article"
     },
     {
       "title": "Rare variants in KDR, encoding VEGF Receptor 2, are associated with tetralogy of Fallot",
-      "authors": [
-        "Škorić-Milosavljević D",
-        "et al."
-      ],
+      "authors": [],
       "journal": "Genetics in Medicine",
       "year": 2021,
       "doi": "10.1038/s41436-021-01212-y",
-      "pmid": "34113005",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1038/s41436-021-01212-y",
       "type": "journal-article"
     },
     {
-      "title": "Loss of ADAMTS19 causes progressive non-syndromic heart valve disease",
-      "authors": [
-        "Wünnemann F",
-        "et al."
-      ],
-      "journal": "Nature Genetics",
-      "year": 2020,
-      "doi": "10.1038/s41588-019-0536-2",
-      "pmid": "31844321",
+      "title": "Integrative analysis of genomic variants reveals new associations of candidate haploinsufficient genes with congenital heart disease",
+      "authors": [],
+      "journal": "PLOS Genetics",
+      "year": 2021,
+      "doi": "10.1371/journal.pgen.1009679",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1371/journal.pgen.1009679",
       "type": "journal-article"
     },
     {
-      "title": "Systems genetics analysis identifies calcium-signaling defects as novel cause of congenital heart disease",
-      "authors": [
-        "Izarzugaza JMG",
-        "et al."
-      ],
-      "journal": "Genome Medicine",
-      "year": 2020,
-      "doi": "10.1186/s13073-020-00772-z",
-      "pmid": "32859249",
+      "title": "Generation of ENSEMBL-based proteogenomics databases boosts the identification of non-canonical peptides",
+      "authors": [],
+      "journal": "Bioinformatics",
+      "year": 2021,
+      "doi": "10.1093/bioinformatics/btab838",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1093/bioinformatics/btab838",
+      "type": "journal-article"
+    },
+    {
+      "title": "A proteomics sample metadata representation for multiomics integration and big data analysis",
+      "authors": [],
+      "journal": "Nature Communications",
+      "year": 2021,
+      "doi": "10.1038/s41467-021-26111-3",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1038/s41467-021-26111-3",
       "type": "journal-article"
     },
     {
       "title": "The omics discovery REST interface",
-      "authors": [
-        "Dass G",
-        "et al."
-      ],
+      "authors": [],
       "journal": "Nucleic Acids Research",
       "year": 2020,
       "doi": "10.1093/nar/gkaa326",
-      "pmid": "32374843",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1093/nar/gkaa326",
       "type": "journal-article"
     },
     {
-      "title": "DNA methylation profiling allows for characterization of atrial and ventricular cardiac tissues and hiPSC-CMs",
-      "authors": [
-        "Hoff K",
-        "et al."
-      ],
-      "journal": "Clinical Epigenetics",
-      "year": 2019,
-      "doi": "10.1186/s13148-019-0679-0",
-      "pmid": "31186048",
+      "title": "Systems genetics analysis identifies calcium-signaling defects as novel cause of congenital heart disease",
+      "authors": [],
+      "journal": "Genome Medicine",
+      "year": 2020,
+      "doi": "10.1186/s13073-020-00772-z",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1186/s13073-020-00772-z",
+      "type": "journal-article"
+    },
+    {
+      "title": "Germline variants in HEY2 functional domains lead to congenital heart defects and thoracic aortic aneurysms",
+      "authors": [],
+      "journal": "Genetics in Medicine",
+      "year": 2020,
+      "doi": "10.1038/s41436-020-00939-4",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1038/s41436-020-00939-4",
       "type": "journal-article"
     },
     {
       "title": "The PRIDE database and related tools and resources in 2019: improving support for quantification data",
-      "authors": [
-        "Perez-Riverol Y",
-        "et al."
-      ],
+      "authors": [],
       "journal": "Nucleic Acids Research",
       "year": 2019,
       "doi": "10.1093/nar/gky1106",
-      "pmid": "30395289",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1093/nar/gky1106",
       "type": "journal-article"
     },
     {
-      "title": "Accurate and fast feature selection workflow for high-dimensional omics data",
-      "authors": [
-        "Perez-Riverol Y",
-        "et al."
-      ],
-      "journal": "PLoS ONE",
-      "year": 2017,
-      "doi": "10.1371/journal.pone.0189875",
-      "pmid": "29261781",
+      "title": "Loss of ADAMTS19 causes progressive non-syndromic heart valve disease",
+      "authors": [],
+      "journal": "Nature Genetics",
+      "year": 2019,
+      "doi": "10.1038/s41588-019-0536-2",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1038/s41588-019-0536-2",
+      "type": "journal-article"
+    },
+    {
+      "title": "DNA methylation profiling allows for characterization of atrial and ventricular cardiac tissues and hiPSC-CMs",
+      "authors": [],
+      "journal": "Clinical Epigenetics",
+      "year": 2019,
+      "doi": "10.1186/s13148-019-0679-0",
+      "pmid": null,
+      "url": "http://dx.doi.org/10.1186/s13148-019-0679-0",
       "type": "journal-article"
     },
     {
       "title": "In-depth analysis of protein inference algorithms using multiple search engines and well-defined metrics",
       "authors": [
-        "Audain E",
-        "et al."
+        "Audain, E.",
+        "Uszkoreit, J.",
+        "Sachsenberg, T.",
+        "Pfeuffer, J.",
+        "Liang, X.",
+        "Hermjakob, H.",
+        "Sanchez, A.",
+        "Eisenacher, M.",
+        "Reinert, K.",
+        "Tabb, D.L.",
+        "Kohlbacher, O.",
+        "Perez-Riverol, Y."
       ],
       "journal": "Journal of Proteomics",
       "year": 2017,
       "doi": "10.1016/j.jprot.2016.08.002",
-      "pmid": "27498275",
+      "pmid": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84988843652&partnerID=MN8TOARS",
       "type": "journal-article"
     },
     {
-      "title": "Accurate estimation of isoelectric point of protein and peptide based on amino acid sequences",
+      "title": "Accurate and fast feature selection workflow for high-dimensional omics data",
       "authors": [
-        "Audain E",
-        "et al."
+        "Yasset Perez-Riverol",
+        "Quan Zou",
+        "Max Kuhn",
+        "Juan Antonio Vizcaíno",
+        "Marc-Phillip Hitz",
+        "Enrique Audain"
       ],
-      "journal": "Bioinformatics",
-      "year": 2016,
-      "doi": "10.1093/bioinformatics/btv674",
-      "pmid": "26568629",
+      "journal": "PLOS ONE",
+      "year": 2017,
+      "doi": "10.1371/journal.pone.0189875",
+      "pmid": null,
+      "url": "https://doi.org/10.1371/journal.pone.0189875",
       "type": "journal-article"
     },
     {
       "title": "Bio-analytical method based on MALDI-MS analysis for the quantification of CIGB-300 anti-tumor peptide in human plasma",
       "authors": [
-        "Cabrales-Rico A",
-        "et al."
+        "Cabrales-Rico, A.",
+        "de la Torre, B.G.",
+        "Garay, H.E.",
+        "Machado, Y.J.",
+        "Gómez, J.A.",
+        "Audain, E.",
+        "Morales, O.",
+        "Besada, V.",
+        "Marcelo, J.L.",
+        "Reyes, V.",
+        "Perera, Y.",
+        "Perea, S.E.",
+        "Reyes, O.",
+        "González, L.J."
       ],
       "journal": "Journal of Pharmaceutical and Biomedical Analysis",
       "year": 2015,
       "doi": "10.1016/j.jpba.2014.11.043",
-      "pmid": "25546027",
+      "pmid": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84919922959&partnerID=MN8TOARS",
+      "type": "journal-article"
+    },
+    {
+      "title": "Accurate estimation of isoelectric point of protein and peptide based on amino acid sequences",
+      "authors": [
+        "Audain, E.",
+        "Ramos, Y.",
+        "Hermjakob, H.",
+        "Flower, D.R.",
+        "Perez-Riverol, Y."
+      ],
+      "journal": "Bioinformatics",
+      "year": 2015,
+      "doi": "10.1093/bioinformatics/btv674",
+      "pmid": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84962199714&partnerID=MN8TOARS",
       "type": "journal-article"
     },
     {
       "title": "A survey of molecular descriptors used in mass spectrometry based proteomics",
       "authors": [
-        "Audain E",
-        "et al."
+        "Audain, E.",
+        "Sanchez, A.",
+        "Vizcaíno, J.A.",
+        "Perez-Riverol, Y."
       ],
       "journal": "Current Topics in Medicinal Chemistry",
       "year": 2014,
       "doi": "10.2174/1568026613666131204113537",
-      "pmid": "24304317",
-      "type": "review"
+      "pmid": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84894105335&partnerID=MN8TOARS",
+      "type": "journal-article"
     },
     {
       "title": "Isoelectric point optimization using peptide descriptors and support vector machines",
       "authors": [
-        "Perez-Riverol Y",
-        "et al."
+        "Perez-Riverol, Y.",
+        "Audain, E.",
+        "Millan, A.",
+        "Ramos, Y.",
+        "Sanchez, A.",
+        "Vizcaíno, J.A.",
+        "Wang, R.",
+        "Müller, M.",
+        "Machado, Y.J.",
+        "Betancourt, L.H.",
+        "González, L.J.",
+        "Padrón, G.",
+        "Besada, V."
       ],
       "journal": "Journal of Proteomics",
       "year": 2012,
       "doi": "10.1016/j.jprot.2012.01.029",
-      "pmid": "22326964",
+      "pmid": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84862798576&partnerID=MN8TOARS",
       "type": "journal-article"
     }
   ]
