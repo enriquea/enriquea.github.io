@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Refresh data/publications.json from the public ORCID API.
 
-Uses only the Python standard library. If ORCID cannot be reached, or returns
-no works, the existing data file is left untouched so the site still builds.
+Uses only the Python standard library. ORCID works are merged into the existing list: nothing curated is removed, and
+if ORCID cannot be reached the data file is left untouched so the site still builds.
 
 Usage: python scripts/fetch_orcid.py
 """
@@ -93,42 +93,82 @@ def main():
         print(f"ORCID fetch failed, keeping existing data: {exc}", file=sys.stderr)
         return 0
 
+    merged = merge(json.loads(OUT.read_text(encoding="utf-8")).get("works", []) if OUT.exists() else [], works)
+    if not merged:
+        print("No works after merging, keeping existing data.", file=sys.stderr)
+        return 0
+    OUT.write_text(json.dumps({
+        "source": f"ORCID {CONFIG['orcid']}, merged with curated entries",
+        "updated": date.today().isoformat(),
+        "works": merged,
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote {len(merged)} works to {OUT.relative_to(ROOT)}")
+    return 0
+
+
+PREPRINT_DOI = ("10.1101/", "10.64898/", "10.26434/", "10.21203/", "10.48550/", "10.20944/", "10.2139/")
+
+
+def norm(title):
+    return re.sub(r"[^a-z0-9]+", " ", (title or "").lower()).strip()
+
+
+def preprint_server(doi):
+    doi = doi or ""
+    if doi.startswith("10.26434/"):
+        return "ChemRxiv"
+    if doi.startswith("10.48550/"):
+        return "arXiv"
+    if doi.startswith("10.21203/"):
+        return "Research Square"
+    if re.match(r"10\.(1101|64898)/\d{4}\.\d{2}\.\d{2}\.\d{8}$", doi):
+        return "medRxiv"
+    if doi.startswith(("10.1101/", "10.64898/")):
+        return "bioRxiv"
+    return "Preprint"
+
+
+def merge(existing, incoming):
+    """Add ORCID works to the existing list without losing anything curated.
+
+    - A work already in the list (same DOI or same title) is kept; ORCID only fills
+      gaps (a longer author list, a missing journal, PMID or link).
+    - A work that is in the list but not in ORCID stays. ORCID records are often incomplete.
+    - A preprint is dropped once a journal version of the same title is in the list,
+      or its DOI is named in config.json "published_preprint_dois".
+    """
     patterns = [re.compile(p, re.I) for p in CONFIG.get("exclude_title_patterns", [])]
-    seen, clean = set(), []
-    for w in works:
+    out = [dict(w) for w in existing]
+    index = {}
+    for w in out:
+        if w.get("doi"):
+            index[w["doi"].lower()] = w
+        index.setdefault("t:" + norm(w["title"]) + ":" + str(w.get("type") == "preprint"), w)
+    for w in incoming:
         if any(p.search(w["title"]) for p in patterns):
             continue
-        key = w["doi"] or w["title"].lower()
-        if key in seen:
-            continue
-        seen.add(key)
-        clean.append(w)
-
-    # Preprints: keep one only while no journal version of the same work exists.
-    def norm(title):
-        return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
-
-    PREPRINT_DOI = ("10.1101/", "10.64898/", "10.21203/", "10.48550/", "10.20944/", "10.2139/")
-    for w in clean:
         if w["type"] == "preprint" or (w["doi"] or "").startswith(PREPRINT_DOI):
             w["type"] = "preprint"
-    published = {norm(w["title"]) for w in clean if w["type"] != "preprint"}
-    superseded = set(CONFIG.get("published_preprint_dois", []))
-    clean = [w for w in clean if not (w["type"] == "preprint"
-             and (norm(w["title"]) in published or (w["doi"] or "") in superseded))]
-
-    if not clean:
-        print("ORCID returned no works, keeping existing data.", file=sys.stderr)
-        return 0
-
-    clean.sort(key=lambda w: (w["year"] or 0, w["title"]), reverse=True)
-    OUT.write_text(json.dumps({
-        "source": f"ORCID {CONFIG['orcid']}",
-        "updated": date.today().isoformat(),
-        "works": clean,
-    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {len(clean)} works to {OUT.relative_to(ROOT)}")
-    return 0
+            w["journal"] = w["journal"] or preprint_server(w["doi"])
+        have = index.get((w["doi"] or "").lower()) if w["doi"] else None
+        have = have or index.get("t:" + norm(w["title"]) + ":" + str(w["type"] == "preprint"))
+        if have:
+            if len(w["authors"]) > len(have.get("authors") or []):
+                have["authors"] = w["authors"]
+            for k in ("journal", "pmid", "url", "year", "doi"):
+                if not have.get(k) and w.get(k):
+                    have[k] = w[k]
+        else:
+            out.append(w)
+            if w["doi"]:
+                index[w["doi"]] = w
+            index.setdefault("t:" + norm(w["title"]) + ":" + str(w["type"] == "preprint"), w)
+    published = {norm(w["title"]) for w in out if w.get("type") != "preprint"}
+    superseded = {d.lower() for d in CONFIG.get("published_preprint_dois", [])}
+    out = [w for w in out if not (w.get("type") == "preprint"
+           and (norm(w["title"]) in published or (w.get("doi") or "").lower() in superseded))]
+    out.sort(key=lambda w: (w.get("year") or 0, w["title"]), reverse=True)
+    return out
 
 
 if __name__ == "__main__":

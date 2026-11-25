@@ -51,3 +51,10 @@ pointing to `enriquea.github.io` (or A records for an apex domain). No rebuild n
 - `scripts/fetch_github.py`: refreshes star counts for the software cards during the weekly run.
 - Photo: save it as `assets/photo.jpg` and set `"photo": "assets/photo.jpg"` in `config.json`.
 - "Print CV" uses the browser's print dialog with a compact print stylesheet.
+
+## How the ORCID sync treats your list
+
+The sync **merges**: it adds works from ORCID and fills gaps, but never removes an entry
+that is already in `data/publications.json`. To add a paper ORCID lacks, add it to that file.
+To hide a preprint that has since been published, add its DOI to `published_preprint_dois`
+in `config.json` (this happens by itself when the journal version has the same title).
